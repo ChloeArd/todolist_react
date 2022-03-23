@@ -25,6 +25,8 @@ export const List = function ({lists, setIsListUpdated, setLists}) {
         let newList = document.getElementById("inputList").value;
         lists.push({id: lists.length + 1, name: newList, checked: false});
         setIsListUpdated(true);
+        document.getElementById("inputList").value = "";
+
     }
 
     return (
