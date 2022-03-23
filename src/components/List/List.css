@@ -1,0 +1,74 @@
+.List {
+    width: 30%;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #489CC1;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#inputList {
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    color: #076392;
+    font-size: 25px;
+    border: 1px solid #e7e7e7;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.addList {
+    width: 10%;
+    background-color: #489CC1;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: 0 10px;
+    margin-bottom: 15px;
+}
+
+.tasks, #remove {
+    border: 1px solid #e7e7e7;
+    padding: 8px;
+    text-align: center;
+    width: 40%;
+    margin-top: 50px;
+    font-size: 18px;
+    margin-right: 10%;
+    color: #68666B;
+}
+
+#remove:hover, .addList:hover {
+    background-color: #076392;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#remove {
+    background-color: #489CC1;
+    border: none;
+    color: white;
+    margin-right: 0;
+    margin-left: 10%;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
