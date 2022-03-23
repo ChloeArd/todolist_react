@@ -4,7 +4,7 @@ import {ListItem} from "../ListItem/ListItem";
 import {faClose, faPlus} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-export const List = function ({lists, setIsListUpdated, setLists}) {
+export const List = function ({lists, setIsListUpdated}) {
 
     function countChecked() {
         let checkedList = [];
@@ -37,7 +37,7 @@ export const List = function ({lists, setIsListUpdated, setLists}) {
                 <button type="submit" className="addList" onClick={handleAddListClick}><FontAwesomeIcon icon={faPlus} /></button>
             </div>
             <div className="flexColumn">
-                {lists.map(list => <ListItem key={list.id} list={list} lists={lists} setLists={setLists} setIsListUpdated={setIsListUpdated} />)}
+                {lists.map(list => <ListItem key={list.id} list={list} lists={lists} setIsListUpdated={setIsListUpdated} />)}
             </div>
             <div className="flexRow">
                 <div className="tasks"><span className="bold">{countChecked()}</span> of <span className="bold">{lists.length}</span> tasks done

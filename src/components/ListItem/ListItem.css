@@ -12,17 +12,6 @@
     background-color: #F9FDFF;
 }
 
-.edit, .delete {
-    border: none;
-    color: #D3E5F1;
-    background-color: transparent;
-    font-size: 20px;
-}
-
-.edit:hover, .delete:hover {
-    color: black;
-}
-
 .width_90 {
     width: 90%;
 }
@@ -44,17 +33,3 @@
     text-decoration: line-through;
 }
 
-.displayList {
-    display: none;
-}
-
-input {
-    border: 1px solid #e7e7e7;
-}
-
-.buttonOk, .buttonClose {
-    background-color: #489CC1;
-    color: white;
-    border: none;
-    margin: 0 5px;
-}

@@ -20,7 +20,7 @@ function App() {
 
     return (
         <>
-            <List lists={lists} setIsListUpdated={setIsListUpdated} setLists={setLists}/>
+            <List lists={lists} setIsListUpdated={setIsListUpdated} />
         </>
     );
 }
